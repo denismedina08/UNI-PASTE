@@ -5,6 +5,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+name {
+    background: url(https://i.guim.co.uk/img/media/77e3e93d6571da3a5d77f74be57e618d5d930430/0_0_2560_1536/master/2560.jpg?width=1900&dpr=2&s=none);
+}
+
 h1{
     text-align: center;
+}
+
+h2,h3{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+footer {
+    margin-bottom: 100px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
 }

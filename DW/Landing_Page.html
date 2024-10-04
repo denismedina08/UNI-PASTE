@@ -8,117 +8,153 @@
     <link rel="stylesheet" href="Landing_Page.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <header class="container">
-        <h1 class="">CLUBE LIVROS</h1>
-    </header>
+<body style="background-color: rgba(255, 215, 184, 0.422);">
+
+    <!-- Cabeçalho -->
+
+    <nav class="navbar sticky-top bg-dark">
+        <div class="container-fluid">
+            <a style="font-family: DM Serif Display, serif; font-weight: 400; font-style: normal"
+                class="navbar-brand text-light" href="#">Clube de Literatura</a>
+        </div>
+    </nav>
 
     <main>
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+        <div style="background: url(livros.png);"
+            class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
             <div class="col-md-6 p-lg-5 mx-auto my-5">
-                <h1 class="display-3 fw-bold">A CADA MÊS UM MUNDO NOVO</h1>
-                <h3 class="fw-normal text-muted mb-3">Build anything you want with Aperture</h3>
-                <div class="d-flex gap-3 justify-content-center lead fw-normal">
-                    <a class="icon-link" href="#">
-                        Learn more
-                        <svg class="bi">
-                            <use xlink:href="#chevron-right" />
-                        </svg>
-                    </a>
-                    <a class="icon-link" href="#">
-                        Buy
-                        <svg class="bi">
-                            <use xlink:href="#chevron-right" />
-                        </svg>
-                    </a>
-                </div>
+                <h2 class="display-3 fw-bold text-light bg-secondary">A CADA MÊS UM MUNDO NOVO</h2>
+                <h3 class="fw-normal text-muted mb-3 bg-info">Uma nova experiência literária</h3>
+                <div class="d-flex gap-3 justify-content-center lead fw-normal"></div>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
     </main>
+
     <!-- Cards -->
 
-    <div class="container">
-        <div class="row mb-2">
-            <div class="col-md-6">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="mb-0">KIT BASICO</h3>
-                        <div class="mb-1 text-body-secondary">Nov 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to
-                            additional content.</p>
-                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-                            Continue reading
-                            <svg class="bi">
-                                <use xlink:href="#chevron-right" />
+    <div class="" style="background-color: black;">
+
+        <div class="container">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                        style="margin-top: 30px;">
+                        <div class="col p-5 d-flex flex-column position-static" style="background-color: white;">
+                            <h3 class="mb-">KIT BASICO</h3> <!-- FIRST -->
+                            <div class="mb-1 text-white bg-secondary rounded-1">1°</div>
+                            <p class="card-text mb-auto">
+                            <ul>
+                                <ul>
+                                    <li>Classicos e Contemporaneos</li>
+                                    <s>
+                                        <li>Brindes</li>
+                                    </s>
+                                    <s>
+                                        <li>Bônus</li>
+                                    </s>
+                                    <s>
+                                        <li>Desconto Mensal</li>
+                                    </s>
+                                    <s>
+                                        <li>Curso video <i>Classicos</i></li>
+                                    </s>
+                                </ul>
+                            </ul>
+                            </p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <sv g class="bi">
+                                    <use xlink:href="#chevron-right" />
+                                </sv>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <svg class="bd-placeholder-img" width="200" height="350" xmlns="http://www.w3.org/2000/svg"
+                                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#B19CD9"></rect>
                             </svg>
-                        </a>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
-                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                            focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="mb-0">KIT EXTRA</h3>
-                        <div class="mb-1 text-body-secondary">Nov 11</div>
-                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
-                            additional content.</p>
-                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-                            Continue reading
-                            <svg class="bi">
-                                <use xlink:href="#chevron-right" />
+
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                        style="margin-top: 30px;">
+                        <div class="col p-5 d-flex flex-column position-static" style="background-color: white;">
+                            <h3 class="mb-0">KIT EXTRA</h3> <!-- SECOND -->
+                            <div class="mb-1 text-white bg-secondary rounded-1">2°</div>
+                            <p class="mb-auto">
+                            <ul>
+                                <li>Classicos e Contemporaneos</li>
+                                <li>Brindes</li>
+                                <li>Bônus</li>
+                                <s>
+                                    <li>Desconto Mensal</li>
+                                </s>
+                                <s>
+                                    <li>Curso video <i>Classicos</i></li>
+                                </s>
+                            </ul>
+                            </p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <svg class="bd-placeholder-img" width="200" height="350" xmlns="http://www.w3.org/2000/svg"
+                                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#FFFACD"></rect>
                             </svg>
-                        </a>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
-                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                            focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="mb-0">KIT EXTRA PLUS</h3>
-                        <div class="mb-1 text-body-secondary">Nov 11</div>
-                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
-                            additional content.</p>
-                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-                            Continue reading
-                            <svg class="bi">
-                                <use xlink:href="#chevron-right" />
+
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-5 d-flex flex-column position-static" style="background-color: white;">
+                            <h3 class="mb-0">KIT EXTRA PLUS</h3> <!-- THIRD -->
+                            <div class="mb-1 text-white bg-secondary rounded-1">3°</div>
+                            <p class="mb-auto">
+                            <ul>
+                                <li>Classicos e Contemporaneos</li>
+                                <li>Brindes</li>
+                                <li>Bônus</li>
+                                <li>Desconto Mensal</li>
+                                <li>Curso video <i>Classicos</i></li>
+                            </ul>
+                            </p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <svg class="bd-placeholder-img" width="200" height="350" xmlns="http://www.w3.org/2000/svg"
+                                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#84b6f4"></rect>
                             </svg>
-                        </a>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
-                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                            focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,35 +162,120 @@
     </div>
 
     <!-- Form -->
-
     <div class="container">
-        <form>
+        <form style="margin-top: 50px;">
             <div class="row">
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        <label for="">Nome</label>
+                        <input type="text" class="form-control" id="" placeholder="Nome">
                     </div>
 
                     <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        <label for="">Sobrenome</label>
+                        <input type="text" class="form-control" id="" placeholder="Sobrenome">
                     </div>
 
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        <label for="">Endereço completo</label>
+                        <input type="text" class="form-control" id="" placeholder="Endereço completo">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="">CEP</label>
+                        <input type="text" maxlength="11" class="form-control" id="" placeholder="CEP">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" id="" placeholder="Email">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="">Usuário</label>
+                        <input type="text" class="form-control" id="" placeholder="Usuário">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Senha</label>
+                        <input type="password" minlength="3" maxlength="10" class="form-control" id="inputPassword4"
+                            placeholder="min-3 max-10">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="">País</label>
+                        <input type="text" class="form-control" id="" placeholder="País">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="">Selecione o Estado:</label>
+                        <select class="form-control" name="estado">
+                            <option value="">Selecione um estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group col-md-6">
+                        <label for="">Telefone</label>
+                        <input type="tel" maxlength="11" class="form-control" id="" placeholder="Telefone">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="">Idade</label>
+                        <input type="number" class="form-control" id="" placeholder="Idade">
+                    </div>
+
+                    <br>
+
+                    <div class="container d-flex justify-content-center">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+                            <label class="btn btn-outline-primary btn-lg" for="btnradio1">1°</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                            <label class="btn btn-outline-primary btn-lg" for="btnradio2">2°</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                            <label class="btn btn-outline-primary btn-lg" for="btnradio3">3°</label>
+                        </div>
                     </div>
                 </div>
             </div>
         </form>
     </div>
+    <br>
 
     <!-- Fotter -->
 
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p class="col-md-4 mb-0 text-muted">&copy; 2024, Direitos Reservados</p>
+            <p class="col-md-4 mb-0 text-muted">&copy; Clube de Literatura - CNPJ XX.XXX.XXX/XXXX- XX</p>
 
             <a href="/"
                 class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
@@ -164,8 +285,12 @@
             </a>
 
             <ul class="nav col-md-4 justify-content-end">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"
+                        style="font-family: DM Serif Display, serif; font-weight: 400; font-style: normal; font-size: 20px;">CONTATO</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"
+                        style="font-family: DM Serif Display, serif; font-weight: 400; font-style: normal; font-size: 20px;">SOBRE
+                        NÓS</a></li>
             </ul>
         </footer>
     </div>
